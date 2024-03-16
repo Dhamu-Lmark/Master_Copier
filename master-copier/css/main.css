@@ -10,7 +10,6 @@
 }
 
 
-
 /* Dark Mode */
 .dark-mode {
   background-color: #1a1a1a;
@@ -95,6 +94,17 @@
       background-color: rgb(251, 251, 251);
 
     }
+    .pricing-card-1:hover{
+      background-color: rgb(255, 255, 255);
+      margin-top: 20px;
+      padding: 10px;
+    }
+
+    .pricing-card:hover{
+      background-color: rgb(255, 255, 255);
+      margin-top: 20px;
+      padding: 10px;
+    }
 
       .btn-green-1 {
         background-color: #28a745;
@@ -103,8 +113,6 @@
 		padding: 10px 15px;
         /* border-radius: 15px; */
         color: white;
-  
-  
       }
 	  .btn-got{
 		background-color: #28a745;
@@ -116,8 +124,8 @@
 	  }
   
       .btn-green:hover {
-        background-color: #218838;
-        border-color: #1e7e34;
+        background-color: #4dd56b;
+        border-color: #4dd56b;
         /* border-radius: 8px; */
         color: white;
       }
