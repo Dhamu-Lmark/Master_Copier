@@ -188,6 +188,7 @@ body {
   cursor: pointer;
 }
 
+
 /* Animation for sidebar navigation */
 .navigation-2 {
   transition: width 0.5s ease; /* Add transition for width change */
@@ -414,10 +415,21 @@ tfoot td {
 .col-sm-6{
   display: flex;
 }
-
+@media (max-width: 1500px) {
+.dov-v{
+  margin-left: 310px;
+}
+}
 /* Media Queries */
 
 @media (max-width: 1150px) {
+  .dov-v{
+    margin-left: 130px;
+  }
+  .navigation-2.active
+  .dov-v{
+    margin-left: 220px;
+  }
   .navigation-2 {
     position: fixed;
     width: 300px;
@@ -467,9 +479,7 @@ tfoot td {
 }
 
 @media (max-width: 810px) {
-  .navigation-2 {
-    left: -300px;
-  }
+  
   .navigation-2.active {
     left: 0;
     width: 300px;
@@ -699,4 +709,23 @@ font-size: 35px;
     display: flex;
     justify-content: end;
   }
+}
+
+
+#accountsBtn .active {
+  background-color: aqua;
+  color: white;
+}
+
+#tradesBtn .active {
+  background-color: aqua;
+  color: white;
+}
+#analysisBtn .active {
+  background-color: aqua;
+  color: white;
+}
+#historyBtn .active {
+  background-color: aqua;
+  color: white;
 }
